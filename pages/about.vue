@@ -3,7 +3,11 @@
     <p>This is about</p>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
+  const route = useRoute();
+ console.log('about',route.redirectedFrom);
+ 
+
 </script>
 
 <style>

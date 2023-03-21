@@ -22,6 +22,10 @@ export default defineNuxtConfig({
         { name: 'description', content: 'My amazing site.' }
       ],
     }
-  }
+  },
+  runtimeConfig: {
+    public: {
+      baseUrl : process.env.BASE_URL
+    }}
   
 })
